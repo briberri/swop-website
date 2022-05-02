@@ -253,3 +253,14 @@ button {
 figcaption {
   width: 40%;
 }
+
+.stories {
+  background-color: #a391d4;
+  width: 130px;
+  margin: 5%;
+}
+
+.story {
+  border: #a391d4 dotted 3px;
+  padding: 4%;
+}
