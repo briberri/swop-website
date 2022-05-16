@@ -27,19 +27,6 @@ a:visited {
 #welcome {
   padding: ;
 }
-
-.announcement {
-  background-color: #a391d4;
-  padding: 5%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.announcement h2 {
-  color: white;
-}
 .main {
   padding: 5%;
 }
@@ -151,6 +138,11 @@ a:visited {
 
 .col-md-3 {
   margin-top: 4%;
+}
+
+.img-thumbnail {
+  width: 6240px;
+  height: inherit;
 }
 
 .footer {
