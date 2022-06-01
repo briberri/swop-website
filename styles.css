@@ -191,7 +191,12 @@ body {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-  color: white;
+  color: white !important;
+}
+
+.navbar-toggler-icon {
+  color: white !important;
+  border-color: white;
 }
 
 .navbar-nav .dropdown-menu {
@@ -248,11 +253,26 @@ figcaption {
 
 .stories {
   background-color: #a391d4;
-  width: 130px;
-  margin: 5%;
+  margin: 2%;
+  padding: 20px;
 }
 
 .story {
   border: #a391d4 dotted 3px;
   padding: 4%;
+  margin-bottom: 3%;
+  align-self: flex-start;
+}
+
+.profile {
+  padding: 5%;
+  width: 85%;
+  margin: auto;
+  line-height: 1.5;
+}
+
+.story-img {
+  float: left;
+  width: 40%;
+  margin-right: 2%;
 }
