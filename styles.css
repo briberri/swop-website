@@ -284,6 +284,11 @@ figcaption {
 	margin-right: 2%;
 }
 
+.story-img-big {
+	width: 95%;
+	margin: 3%;
+}
+
 .video {
 	display: block;
 	margin: 0 auto;
